@@ -1,0 +1,12 @@
+Setting up virtual environment
+
+py -m venv [name of venv]
+
+[name of venv]/Scripts/activate -> to run the virtual environment
+
+Visual studio code will face an error that does not allow powershell to run scripts.
+To prevent that, run as admin powershell, key in the following command:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+Then select Y
+
+Virtual environment will help us to prevent dependency conflicts for different projects
